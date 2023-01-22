@@ -1,0 +1,149 @@
+/* Conteúdo Principal */
+
+#main-content{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/**/
+
+/* Lateral Esquerda */
+
+#left-panel{
+    background-color: #171A3C;
+    border-radius: 10px;
+    max-height: 1350px;
+}
+
+#left-panel h2{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#left-panel h3{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#left-panel p{
+    display: inline;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#min-price, #max-price{
+    display: inline-block;
+    width: 75px;
+    border-color: #EEE;
+    background-color: #171A3C;
+    color: #FFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#clear-filters{
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #F44D10;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#clear-filters:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+
+/**/
+
+/* Carrossel */
+
+.glide__slide {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.glide {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.glide__bullets {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.glide__bullet:active,
+.glide__bullet:focus,
+.glide__bullet:active:focus {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.glide__bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 5px;
+    border: none;
+    background-color: #171A3C;
+}
+
+#central-panel h2{
+    font-weight: bold;
+    border-bottom: 1px solid #FFF;;
+}
+
+/**/
+
+/* Jogos */
+
+.game-card{
+    margin-top: 10px;
+    background-color: #171A3C;
+    height: 320px;
+    border-radius: 5px;
+}
+
+.game-card img{
+    width: fit-content;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.game-card h4{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 5px 0 5px;
+}
+
+.game-card p{
+    text-align: right;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.promo{
+    color: orange;
+    text-decoration: line-through;
+    text-align: left;
+}
+
+/**/
+
+/* Lateral Direita */
+
+#right-panel img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/**/

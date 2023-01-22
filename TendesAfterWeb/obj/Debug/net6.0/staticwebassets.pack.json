@@ -1,0 +1,525 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TendesAfterWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TendesAfterWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\Playstation.png",
+      "PackagePath": "staticwebassets\\Images\\Playstation.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\Xbox.png",
+      "PackagePath": "staticwebassets\\Images\\Xbox.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\arrow-down.png",
+      "PackagePath": "staticwebassets\\Images\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\banner.png",
+      "PackagePath": "staticwebassets\\Images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\buy.png",
+      "PackagePath": "staticwebassets\\Images\\buy.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\carrinho.png",
+      "PackagePath": "staticwebassets\\Images\\carrinho.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\carrossel_1.png",
+      "PackagePath": "staticwebassets\\Images\\carrossel_1.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\carrossel_2.png",
+      "PackagePath": "staticwebassets\\Images\\carrossel_2.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\carrossel_3.png",
+      "PackagePath": "staticwebassets\\Images\\carrossel_3.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\carrossel_4.png",
+      "PackagePath": "staticwebassets\\Images\\carrossel_4.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\carrossel_5.png",
+      "PackagePath": "staticwebassets\\Images\\carrossel_5.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\cosme.jpg",
+      "PackagePath": "staticwebassets\\Images\\cosme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\default-user.png",
+      "PackagePath": "staticwebassets\\Images\\default-user.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\delete.png",
+      "PackagePath": "staticwebassets\\Images\\delete.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\discord.png",
+      "PackagePath": "staticwebassets\\Images\\discord.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\facebook.png",
+      "PackagePath": "staticwebassets\\Images\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\instagram.png",
+      "PackagePath": "staticwebassets\\Images\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_1.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_1.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_10.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_10.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_11.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_11.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_12.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_12.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_13.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_13.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_14.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_14.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_15.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_15.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_2.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_2.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_3.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_3.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_4.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_4.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_5.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_5.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_6.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_6.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_7.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_7.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_8.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_8.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_9.png",
+      "PackagePath": "staticwebassets\\Images\\jogo_9.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\key.png",
+      "PackagePath": "staticwebassets\\Images\\key.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\lupa.png",
+      "PackagePath": "staticwebassets\\Images\\lupa.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\multibanco.png",
+      "PackagePath": "staticwebassets\\Images\\multibanco.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\patricio.jpg",
+      "PackagePath": "staticwebassets\\Images\\patricio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\paypal.png",
+      "PackagePath": "staticwebassets\\Images\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\paysafecard.png",
+      "PackagePath": "staticwebassets\\Images\\paysafecard.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\portugal-flag.png",
+      "PackagePath": "staticwebassets\\Images\\portugal-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\0a8a9c24-a8ae-4df4-8249-6cb96b007609.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\0a8a9c24-a8ae-4df4-8249-6cb96b007609.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\7abfc47f-0083-4cad-8b2e-6a8ce0d6c4e0.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\7abfc47f-0083-4cad-8b2e-6a8ce0d6c4e0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\89b0167f-8bf5-42bc-94a0-8cfbf0888544.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\89b0167f-8bf5-42bc-94a0-8cfbf0888544.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\8e6f9d02-92f9-453f-8446-0b9c42ba2394.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\8e6f9d02-92f9-453f-8446-0b9c42ba2394.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\a585eb62-46bb-4a0d-bd91-cadb183095c2.png",
+      "PackagePath": "staticwebassets\\Images\\products\\a585eb62-46bb-4a0d-bd91-cadb183095c2.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\da564080-8860-4c15-9e30-332d64b2e27e.png",
+      "PackagePath": "staticwebassets\\Images\\products\\da564080-8860-4c15-9e30-332d64b2e27e.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\sell.png",
+      "PackagePath": "staticwebassets\\Images\\sell.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\star-empty.png",
+      "PackagePath": "staticwebassets\\Images\\star-empty.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\star-full.png",
+      "PackagePath": "staticwebassets\\Images\\star-full.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\star-half.png",
+      "PackagePath": "staticwebassets\\Images\\star-half.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\twitter.png",
+      "PackagePath": "staticwebassets\\Images\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\user.png",
+      "PackagePath": "staticwebassets\\Images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\visa.png",
+      "PackagePath": "staticwebassets\\Images\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\wishlist.png",
+      "PackagePath": "staticwebassets\\Images\\wishlist.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\zepaulo.jpg",
+      "PackagePath": "staticwebassets\\Images\\zepaulo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\BootswatchTheme.css",
+      "PackagePath": "staticwebassets\\css\\BootswatchTheme.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\game.css",
+      "PackagePath": "staticwebassets\\css\\game.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\global-style.css",
+      "PackagePath": "staticwebassets\\css\\global-style.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\payment.css",
+      "PackagePath": "staticwebassets\\css\\payment.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\fonts\\modernist.otf",
+      "PackagePath": "staticwebassets\\fonts\\modernist.otf"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TendesAfterWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TendesAfterWeb.props",
+      "PackagePath": "build\\TendesAfterWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TendesAfterWeb.props",
+      "PackagePath": "buildMultiTargeting\\TendesAfterWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TendesAfterWeb.props",
+      "PackagePath": "buildTransitive\\TendesAfterWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

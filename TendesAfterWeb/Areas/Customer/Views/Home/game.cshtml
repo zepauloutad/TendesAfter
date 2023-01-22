@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TendesAfter.pt</title>
+    <link rel="shortcut icon" href="images/logo.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS Files-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.5.2/dist/css/glide.core.min.css">
+    <link href="CSS/global-style.css" rel="stylesheet" tyoe="text/css">
+    <link href="CSS/game.css" rel="stylesheet" tyoe="text/css">
+</head>
+
+<body>
+    <!-- Início Barra de Navegação -->
+    <header>
+        <nav id="main-nav" class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <!-- Início Logo -->
+                <div class="col-3">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="images/logo.png" width="150">
+                    </a>
+                </div>
+                <!-- Fim Logo-->
+                <!-- Início Searchbar-->
+                <div class="col-6">
+                    <div>
+                        <div class="input-box">
+                            <input type="text" id="searchbar" name="searchbar" class="form-control" maxlength="50"
+                                placeholder="Procurar...">
+                            <a href=""><i class="bi bi-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Searchbar-->
+                <!-- Início área Login/Registo -->
+                <div class="col-3">
+                    <div>
+                        <ul>
+                            <li class="align-middle"><img src="images/user.png"></li>
+                            <li class="align-middle"><a href="login.html">Login</a></li> |
+                            <li class="align-middle"><a href="register.html">Registo</a></li>
+                            <li class="align-middle"><img src="images/portugal-flag.png"></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Fim área Login/Registo -->
+            </div>
+        </nav>
+    </header>
+    <!-- Fim Barra de Navegação -->
+
+    <!-- Início Área Principal -->
+    <section id="game-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img id="game-pic" src="images/jogo_8.png" class="img-fluid">
+                </div>
+                <div class="col-6">
+                    <h1>Days Gone - PC</h1>
+                    <div>
+                        <img class="star mr-2" src="images/star-full.png">
+                        <img class="star mr-2" src="images/star-full.png">
+                        <img class="star mr-2" src="images/star-full.png">
+                        <img class="star mr-2" src="images/star-half.png">
+                        <img class="star" src="images/star-empty.png">
+                    </div>
+                    <p id="game-ranking">4.50/5.00</p>
+                    <div id="tags">
+                        <p class="tag ml-0"><a href="">Ação</a></p>
+                        <p class="tag"><a href="">RPG</a></p>
+                        <p class="tag"><a href="">Single-Player</a></p>
+                    </div>
+                    <div id="offer-type">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="images/key.png" class="img-fluid">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <h4>Chave Digital</h4>
+                                <p>Este Produto é uma versão digital do Videojogo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div id="offer-info">
+                        <div id="offer-info-header">
+                            <h5>Melhor Oferta</h5>
+                        </div>
+                        <div id="offer-info-content">
+                            <div class="row">
+                                <div id="offer-promo" class="col-6">
+                                    <h4>49,99€</h4>
+                                </div>
+                                <div id="offer-price" class="col-6">
+                                    <h4>10,64€</h4>
+                                </div>
+                            </div>
+
+                            <button type="button" ><a href="cart.html"><img src="images/buy.png">&ensp;Adicionar ao Carrinho</a></button>
+                            <button type="button" class="mb-3"><img src="images/sell.png">&ensp;Vender este
+                                jogo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-6 offset-3">
+                    <h2 class="mb-3">Escreva uma análise sobre este jogo</h2>
+                    <form style="text-align: right">
+                        <textarea id="user-review" placeholder="Escreva a sua análise aqui..."></textarea>
+                        <button type="button" id="submit-review" name="submit-review">Publicar</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Início Análises de Utilizadores-->
+            <div id="user-reviews">
+                <div class="row mt-3">
+                    <div class="col-6 offset-3">
+                        <h2 class="mb-3">Análises de outros Utilizadores</h2>
+                    </div>
+                </div>
+                <div class="row mt-3" style="text-align: center">
+                    <div class="col-3">
+                        <div class="review-user-profile">
+                            <img class="user-pic" src="images/patricio.jpg">
+                            <h6>Patrício Simões</h6>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <form style="text-align: right">
+                            <textarea id="user-review" readonly>Jogo fenomenal.</textarea>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3" style="text-align: center">
+                    <div class="col-3">
+                        <div class="review-user-profile">
+                            <img class="user-pic" src="images/zepaulo.jpg">
+                            <h6>José Rocha</h6>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <form style="text-align: right">
+                            <textarea id="user-review" readonly>Diverti-me imenso ao jogar!</textarea>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <div class="review-user-profile" style="text-align: center">
+                            <img class="user-pic" src="images/cosme.jpg">
+                            <h6>José Cosme</h6>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <form style="text-align: right">
+                            <textarea id="user-review" readonly>Foi uma boa compra.</textarea>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim Análises de Utilizadores-->
+        </div>
+    </section>
+    <!-- Fim Área Principal -->
+
+    <!-- Início rodapé -->
+    <footer>
+        <div id="footer-top">
+            <div id="payment-methods" class="container">
+                <img src="images/paypal.png" class="mr-3">
+                <img src="images/paysafecard.png" class="mr-3">
+                <img src="images/multibanco.png" class="mr-3">
+                <img src="images/visa.png">
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <h2>Informações</h2>
+                        <ul>
+                            <li><a>Sobre nós</a></li>
+                            <li><a>Pedidos de Reembolso</a></li>
+                            <li><a>Política de Privacidade</a></li>
+                            <li><a>Termos & Condições</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <h2>Serviço ao Cliente</h2>
+                        <ul>
+                            <li><a>Contactos</a></li>
+                            <li><a>Produtoras</a></li>
+                            <li><a>FAQ - Perguntas Frequentes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <h2>Geral</h2>
+                        <ul>
+                            <li><a>A Minha Conta</a></li>
+                            <li><a>Histórico de Compras</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <h2 style="border: none;"><a>Segue-nos</a></h2>
+                        <div id="social-icons">
+                            <a href="">
+                                <img class="social-icon" src="images/facebook.png" alt="Facebook">
+                            </a>
+                            <a href="">
+                                <img class="social-icon" src="images/instagram.png" alt="Instagram">
+                            </a>
+                            <a href="">
+                                <img class="social-icon" src="images/twitter.png" alt="Twitter">
+                            </a>
+                            <a href="">
+                                <img class="social-icon" src="images/discord.png" alt="Discord">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fim rodapé -->
+
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/@glidejs/glide"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

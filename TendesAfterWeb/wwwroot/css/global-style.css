@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Modernist";
+    src: url(../fonts/modernist.otf);
+}
+body {
+    background-color: #000326;
+    color: #FFF;
+    font-family: "Modernist", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #F44D10;
+}
+
+#main-nav {
+    background-color: #000326;
+    border-bottom: 5px groove #171A3C;
+}
+
+/* Barra de Pesquisa */
+
+.input-box {
+    position: relative;
+    width: 500px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    color: #ced4da;
+}
+
+.form-control {
+    height: 40px;
+    background-color: #171A3C;
+}
+
+.form-control:focus {
+    background-color: #171A3C;
+    box-shadow: none;
+    border-color: #EEE;
+}
+
+#searchbar {
+    color: #FFF;
+}
+
+/**/
+
+/* Secção Login/Registo */
+
+header ul {
+    color: #FFF;
+    font-size: 1.2em;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 2px;
+}
+
+header ul li img {
+    height: 20px;
+    width: 20px;
+}
+
+/**/
+
+/* Sub Barra de Pesquisa */
+
+#sub-nav {
+    margin-top: 150px;
+    height: 45px;
+}
+
+#platforms-area {
+    background-color: #171A3C;
+}
+
+#sub-nav ul {
+    list-style: none;
+}
+
+#sub-nav ul,
+#label-carrinho,
+#wishlist {
+    margin-top: 15px;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+#sub-nav ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+#sub-nav ul li img {
+    height: 20px;
+    width: 20px;
+}
+
+.playstation-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.playstation-dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    background-color: #171A3C;
+    font-size: 1em;
+}
+
+.playstation-dropdown:hover .playstation-dropdown-content {
+    display: block;
+}
+
+.xbox-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.xbox-dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    background-color: #171A3C;
+    font-size: 1em;
+}
+
+.xbox-dropdown:hover .xbox-dropdown-content {
+    display: block;
+}
+
+#label-carrinho img {
+    width: 25px;
+    height: 25px;
+}
+
+#wishlist img {
+    height: 30px;
+    width: 30px;
+    display: inline;
+}
+
+/* Rodapé */
+
+#footer-top {
+    background-color: #FFF;
+}
+
+#footer-top img {
+    height: 35px;
+}
+
+#footer-bottom {
+    background-color: #000;
+}
+
+#footer-bottom h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #FFF;
+}
+
+#footer-bottom ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer-bottom ul a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #F44D10;
+}
+
+.social-icon {
+    height: 35px;
+    width: 35px;
+}
+
+#social-icons {
+    display: flex;
+    justify-content: space-around;
+}

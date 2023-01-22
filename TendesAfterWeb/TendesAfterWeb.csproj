@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Areas\Customer\Views\Home\cart.cshtml" />
+    <Content Remove="Areas\Customer\Views\Home\game.cshtml" />
+    <Content Remove="Areas\Customer\Views\Home\index.cshtml" />
+    <Content Remove="Areas\Customer\Views\Home\login.cshtml" />
+    <Content Remove="Areas\Customer\Views\Home\payment.cshtml" />
+    <Content Remove="Areas\Customer\Views\Home\register.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Customer\Views\Home\cart.cshtml" />
+    <None Include="Areas\Customer\Views\Home\game.cshtml" />
+    <None Include="Areas\Customer\Views\Home\index.cshtml" />
+    <None Include="Areas\Customer\Views\Home\login.cshtml" />
+    <None Include="Areas\Customer\Views\Home\payment.cshtml" />
+    <None Include="Areas\Customer\Views\Home\register.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.RazorPages" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TendesAfter.DataAccess\TendesAfter.DataAccess.csproj" />
+    <ProjectReference Include="..\TendesAfter.Models\TendesAfter.Models.csproj" />
+    <ProjectReference Include="..\TendesAfter.Utility\TendesAfter.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

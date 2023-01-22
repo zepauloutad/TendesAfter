@@ -1,0 +1,12 @@
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\bin\Debug\net6.0\TendesAfter.Utility.deps.json
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\bin\Debug\net6.0\TendesAfter.Utility.dll
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\bin\Debug\net6.0\TendesAfter.Utility.pdb
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\obj\Debug\net6.0\TendesAfter.Utility.csproj.AssemblyReference.cache
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\obj\Debug\net6.0\TendesAfter.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\obj\Debug\net6.0\TendesAfter.Utility.AssemblyInfoInputs.cache
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\obj\Debug\net6.0\TendesAfter.Utility.AssemblyInfo.cs
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\obj\Debug\net6.0\TendesAfter.Utility.csproj.CoreCompileInputs.cache
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\obj\Debug\net6.0\TendesAfter.Utility.dll
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\obj\Debug\net6.0\refint\TendesAfter.Utility.dll
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\obj\Debug\net6.0\TendesAfter.Utility.pdb
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Utility\obj\Debug\net6.0\ref\TendesAfter.Utility.dll

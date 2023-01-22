@@ -1,0 +1,71 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#cart-area{
+    margin-top: 200px;
+    min-height: 100%;
+}
+
+.game-info{
+    padding: 15px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.game-pic{
+    height: 300px;
+    border-radius: 5px;
+}
+
+.promo{
+    color: orange;
+    text-decoration: line-through;
+}
+
+.game-price{
+    font-weight: bold;
+    display: inline;
+}
+
+.delete{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+#cart-info{
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#cart-total{
+    display: inline;
+}
+
+#total{
+    color: #F44D10;
+}
+
+#checkout{
+    font-weight: bold;
+    color: #FFF;
+    border-radius: 10px;
+    background-color: #F44D10;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#checkout:hover{
+    cursor: pointer;
+    color: #000;
+}
+
+#checkout a:hover{
+    color: #000;
+}
