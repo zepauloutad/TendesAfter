@@ -4490,7 +4490,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.0",
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "6.0.13"
         },
         "compile": {
           "bin/placeholder/TendesAfter.Models.dll": {}
@@ -4502,6 +4503,9 @@
       "TendesAfter.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.13"
+        },
         "compile": {
           "bin/placeholder/TendesAfter.Utility.dll": {}
         },

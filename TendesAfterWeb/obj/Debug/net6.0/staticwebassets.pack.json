@@ -169,6 +169,10 @@
       "PackagePath": "staticwebassets\\Images\\products\\0a8a9c24-a8ae-4df4-8249-6cb96b007609.jpeg"
     },
     {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\3549f6d0-c724-4732-8ab2-85f5765cc3b5.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\3549f6d0-c724-4732-8ab2-85f5765cc3b5.jpeg"
+    },
+    {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\7abfc47f-0083-4cad-8b2e-6a8ce0d6c4e0.jpeg",
       "PackagePath": "staticwebassets\\Images\\products\\7abfc47f-0083-4cad-8b2e-6a8ce0d6c4e0.jpeg"
     },
@@ -187,6 +191,10 @@
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\da564080-8860-4c15-9e30-332d64b2e27e.png",
       "PackagePath": "staticwebassets\\Images\\products\\da564080-8860-4c15-9e30-332d64b2e27e.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\fa5a4ee2-926b-4045-8a76-2cd6f05beb16.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\fa5a4ee2-926b-4045-8a76-2cd6f05beb16.jpeg"
     },
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\sell.png",
@@ -223,10 +231,6 @@
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\zepaulo.jpg",
       "PackagePath": "staticwebassets\\Images\\zepaulo.jpg"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\BootswatchTheme.css",
-      "PackagePath": "staticwebassets\\css\\BootswatchTheme.css"
     },
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\cart.css",

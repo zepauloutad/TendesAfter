@@ -3,6 +3,8 @@ using TendesAfter.Models;
 using TendesAfter.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace BulkyBookWeb.Areas.Customer.Controllers
 {
@@ -27,25 +29,41 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
 
 
 
-		public IActionResult Details(int id)
+		public IActionResult Details(int productId)
 		{
             ShoppingCart cartobj = new()
             {
                 Count = 1,
-                Product = _unitOfWork.Product.GetFirstOrDefault(u => u.id == id, includeProperties: "Category,CoverType")
+                ProductId = productId,
+                Product = _unitOfWork.Product.GetFirstOrDefault(u => u.id == productId, includeProperties: "Category,CoverType")
             };
 			return View(cartobj);
 		}
 
-		//public IActionResult Privacy()
-  //      {
-  //          return View();
-  //      }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public IActionResult Details(ShoppingCart shoppingCart)
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            shoppingCart.ApplicationUserId = claim.Value;
 
-  //      [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-  //      public IActionResult Error()
-  //      {
-  //          return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-  //      }
+            _unitOfWork.ShoppingCart.Add(shoppingCart);
+            _unitOfWork.Save();
+           
+            return RedirectToAction(nameof(Index));
+        }
+
+        //public IActionResult Privacy()
+        //      {
+        //          return View();
+        //      }
+
+        //      [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        //      public IActionResult Error()
+        //      {
+        //          return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        //      }
     }
 }

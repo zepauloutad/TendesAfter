@@ -3,6 +3,8 @@ using TendesAfter.DataAccess.Repository;
 using TendesAfter.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using TendesAfter.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,9 +15,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 			builder.Configuration.GetConnectionString("DefaultConnection")
 			));
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

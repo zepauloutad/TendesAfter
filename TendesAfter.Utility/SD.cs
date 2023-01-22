@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.Utility
+namespace TendesAfter.Utility
 {
     public static class SD
     {
+        public const string Role_User = "Individual";
+        public const string Role_Admin = "admin";
+        public const string Role_Employee = "Employee";
     }
 }

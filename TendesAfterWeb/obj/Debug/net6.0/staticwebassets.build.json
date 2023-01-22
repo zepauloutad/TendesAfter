@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9CUOh2ZqbU6cHMFG2+ddis/5yVhXfeui01LDH63nCMY=",
+  "Hash": "R0JbYL6gDcbG/KytaC1pgIXgO+yqhdeCBzdv612ztQ4=",
   "Source": "TendesAfterWeb",
   "BasePath": "_content/TendesAfterWeb",
   "Mode": "Default",
@@ -1071,23 +1071,6 @@
       "OriginalItemSpec": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TendesAfterWeb.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\BootswatchTheme.css",
-      "SourceId": "TendesAfterWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\",
-      "BasePath": "_content/TendesAfterWeb",
-      "RelativePath": "css/BootswatchTheme.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\BootswatchTheme.css"
-    },
-    {
       "Identity": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\cart.css",
       "SourceId": "TendesAfterWeb",
       "SourceType": "Discovered",
@@ -1938,6 +1921,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\products\\0a8a9c24-a8ae-4df4-8249-6cb96b007609.jpeg"
     },
     {
+      "Identity": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\3549f6d0-c724-4732-8ab2-85f5765cc3b5.jpeg",
+      "SourceId": "TendesAfterWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\",
+      "BasePath": "_content/TendesAfterWeb",
+      "RelativePath": "Images/products/3549f6d0-c724-4732-8ab2-85f5765cc3b5.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\products\\3549f6d0-c724-4732-8ab2-85f5765cc3b5.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\7abfc47f-0083-4cad-8b2e-6a8ce0d6c4e0.jpeg",
       "SourceId": "TendesAfterWeb",
       "SourceType": "Discovered",
@@ -2021,6 +2021,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\products\\da564080-8860-4c15-9e30-332d64b2e27e.png"
+    },
+    {
+      "Identity": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\fa5a4ee2-926b-4045-8a76-2cd6f05beb16.jpeg",
+      "SourceId": "TendesAfterWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\",
+      "BasePath": "_content/TendesAfterWeb",
+      "RelativePath": "Images/products/fa5a4ee2-926b-4045-8a76-2cd6f05beb16.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\products\\fa5a4ee2-926b-4045-8a76-2cd6f05beb16.jpeg"
     },
     {
       "Identity": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\sell.png",
