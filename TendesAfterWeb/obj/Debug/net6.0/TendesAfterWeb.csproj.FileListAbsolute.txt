@@ -573,3 +573,5 @@ C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfterWeb\bin\Debu
 C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfterWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfterWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfterWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfterWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfterWeb\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll

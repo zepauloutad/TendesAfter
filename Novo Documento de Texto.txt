@@ -1,0 +1,8 @@
+fazer download de ficheiros
+git pull origin main
+
+fazer upload de ficheiros
+
+git add .
+git commit -m "placeholder"
+git push origin main
