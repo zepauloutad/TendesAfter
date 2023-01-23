@@ -2,10 +2,13 @@
 using TendesAfter.DataAccess.Repository.IRepository;
 using TendesAfter.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using TendesAfter.Utility;
 
 namespace TendesAfterWeb.Areas.Admin.Controllers
 {
 	[Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
 	public class CategoryController : Controller
     {
 		

@@ -1,44 +1,96 @@
-﻿<div class="container p-3">
-    <div class="row pt-4">
-        <div class="col-6">
-            <h2 class="text-primary">Product List</h2>
-        </div>
-        <div class="col-6 text-end">
-            <a asp-controller="Product" asp-action="Upsert" class="btn btn-primary">
-                <i class="bi bi-plus-square"></i> &nbsp; Create new Product
-            </a>
-        </div>
+﻿<style>
+
+    #page-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    #page-header{
+        justify-content: space-between;
+    }
+
+    #page-header h2{
+        font-weight: bold;
+        color: #CCC;
+        margin-left: 15px;
+    }
+
+    #add-game-btn{
+        color: #171A3C;
+        background-color: #F44D10;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+    }
+
+    thead{
+        background-color: #CCC;
+        color: #171A3C;
+        font-weight: bold;
+    }
+
+    tbody tr:hover {
+        background-color: #F44D10;
+    }
+
+    #editar-btn{
+        background-color: #171A3C;
+        border-radius: 8px;
+    }
+
+    #editar-btn:hover{
+        color: #F44D10;
+    }
+
+    #remover-btn{
+        background-color: rgb(134, 6, 6);
+        border-radius: 8px;
+    }
+
+    #remover-btn:hover {
+        color: #000;
+    }
+
+</style>
+
+<div id="page-content" class="container">
+    <div id="page-header" class="row">
+            <h2>Lista de Videojogos</h2>
+
+        <a id="add-game-btn" asp-controller="Product" asp-action="Upsert" class="btn">
+            <i class="bi bi-plus-square"></i> &nbsp; Adicionar Videojogo
+        </a>
     </div>
-    <br /><br />
 
 
-    <table id="tblData" class="table table-bordered table-striped" style="width:100%">
+    <table id="tblData" class="table table-bordered" style="width:100%">
         <thead>
             <tr>
                 <th>
                     Title
                 </th>
                 <th>
-                    ISBN
-                </th>
-                <th>
                     Price
-                </th>
-                <th>
-                    Author
                 </th>
                  <th>
                     Category
                 </th>
+             @*   <th>
+                    CoverType
+                </th>*@
                 <th>
-
+                    Opção
                 </th>
             </tr>
         </thead>
        
     </table>
 </div>
-
 @section Scripts
 {
     <script src="~/js/product.js"></script>

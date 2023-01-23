@@ -3,6 +3,7 @@
     src: url(../fonts/modernist.otf);
 }
 
+
 body {
     background-color: #000326;
     color: #FFF;
@@ -202,5 +203,12 @@ header ul {
 
 #social-icons {
     display: flex;
+    justify-content: space-between;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     justify-content: space-between;
 }

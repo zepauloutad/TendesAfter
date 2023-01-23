@@ -13,20 +13,18 @@ function loadDataTable()
         "columns":
             [
             { "data": "title", "width": "15%" },
-            { "data": "isbn", "width": "15%" },
             { "data": "price", "width": "15%" },
-            { "data": "author", "width": "15%" },
             { "data": "category.name", "width": "15%" },
             {
                 "data": "id",
                 "render": function (data) {
                     return `
                         <div class="w-75 btn-group" role = "group">
-                        <a href="/Admin/Product/Upsert?id=${data}"  
-                        class= "btn btn-primary mx-2"><i class="bi bi-pen"></i>Edit</a>
+                        <a id="editar-btn" href="/Admin/Product/Upsert?id=${data}"  
+                        class= "btn mx-2"><i class="bi bi-pen"></i> Editar</a>
 
-                          <a onClick=Delete('/Admin/Product/Delete/${data}')
-                           class= "btn btn-danger mx-2"> <i class="bi bi-trash3"></i> Delete</a>
+                          <a id="remover-btn" onClick=Delete('/Admin/Product/Delete/${data}')
+                           class= "btn mx-2"> <i class="bi bi-trash3"></i> Remover</a>
                     </div >
                     `
                 },
@@ -39,13 +37,13 @@ function loadDataTable()
 function Delete(url)
 {
     Swal.fire({
-        title: 'Are you sure?',
-        text: "You won't be able to revert this!",
+        title: 'Tem a certeza ?',
+        text: "Você não poderá desfazer isto!",
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes, delete it!'
+        confirmButtonText: 'Remover'
     }).then((result) => {
         if (result.isConfirmed) {
             $.ajax({

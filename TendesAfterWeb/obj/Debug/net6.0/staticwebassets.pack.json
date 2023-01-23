@@ -173,6 +173,14 @@
       "PackagePath": "staticwebassets\\Images\\products\\3549f6d0-c724-4732-8ab2-85f5765cc3b5.jpeg"
     },
     {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\5b0eef90-e80b-4b12-8873-4fc4748d6e48.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\5b0eef90-e80b-4b12-8873-4fc4748d6e48.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\67b8e970-e3c9-4534-b40c-41ffceab7abd.png",
+      "PackagePath": "staticwebassets\\Images\\products\\67b8e970-e3c9-4534-b40c-41ffceab7abd.png"
+    },
+    {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\7abfc47f-0083-4cad-8b2e-6a8ce0d6c4e0.jpeg",
       "PackagePath": "staticwebassets\\Images\\products\\7abfc47f-0083-4cad-8b2e-6a8ce0d6c4e0.jpeg"
     },
@@ -183,6 +191,10 @@
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\8e6f9d02-92f9-453f-8446-0b9c42ba2394.jpeg",
       "PackagePath": "staticwebassets\\Images\\products\\8e6f9d02-92f9-453f-8446-0b9c42ba2394.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\a40eb9a7-ea0f-4b45-a565-ddb4b0eb6de4.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\a40eb9a7-ea0f-4b45-a565-ddb4b0eb6de4.jpeg"
     },
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\a585eb62-46bb-4a0d-bd91-cadb183095c2.png",
@@ -241,6 +253,10 @@
       "PackagePath": "staticwebassets\\css\\game.css"
     },
     {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\glide.css",
+      "PackagePath": "staticwebassets\\css\\glide.css"
+    },
+    {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\global-style.css",
       "PackagePath": "staticwebassets\\css\\global-style.css"
     },
@@ -251,6 +267,10 @@
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\payment.css",
       "PackagePath": "staticwebassets\\css\\payment.css"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\product-home.css",
+      "PackagePath": "staticwebassets\\css\\product-home.css"
     },
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\css\\register.css",
@@ -273,8 +293,16 @@
       "PackagePath": "staticwebassets\\fonts\\modernist.otf"
     },
     {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\js\\glide.js",
+      "PackagePath": "staticwebassets\\js\\glide.js"
+    },
+    {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\js\\site.js",

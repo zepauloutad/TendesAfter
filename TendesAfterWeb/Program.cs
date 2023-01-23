@@ -19,7 +19,16 @@ builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProvide
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
+builder.Services.ConfigureApplicationCookie(options =>
+{
+	options.LoginPath = $"/Identity/account/Login";
+	options.LogoutPath = $"/Identity/Account/Logout";
+	options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+
+});
+
 var app = builder.Build();
+;
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

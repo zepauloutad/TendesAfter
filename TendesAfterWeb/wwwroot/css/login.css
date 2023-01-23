@@ -1,6 +1,6 @@
 html,
 body {
-    height: 100%;
+    height: 100vh;
     margin: 0;
 }
 
@@ -41,7 +41,7 @@ body {
     margin-bottom: 10px;
 }
 
-#login-button{
+#login-submit {
     text-align: center;
     width: 90%;
     background-color: #F44D10;
@@ -51,10 +51,10 @@ body {
     margin-bottom: 10px;
 }
 
-#login-button:hover{
-    cursor: pointer;
-    color: #000326;
-}
+    #login-submit:hover {
+        cursor: pointer;
+        color: #000326;
+    }
 
 .login-card h4{
     font-weight: bold;
@@ -73,7 +73,7 @@ body {
 }
 
 
-#login-to-register {
+.login-card p a {
     color: #F44D10;
     font-weight: bold;
 }

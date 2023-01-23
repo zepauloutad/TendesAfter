@@ -1,31 +1,233 @@
-﻿@model IEnumerable<TendesAfter.Models.Product>
+ @model IEnumerable<TendesAfter.Models.Product>
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="~/css/glide.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css">
+</head>
 
-<div class="row pb-3">
-	@foreach(var product in Model)
-	{
-		<div class="col-lg-3 col-md-6">
-			<div class="row p-2">
-				<div class="col-12 p-1" style="border:1px solid #008cba; border-radius: 5px;">
-					<div class="card">
-						<img src="@product.ImageUrl" class="cardcard-img-top rounded"/>
-						<div class="card-body">
-						<div class="pl-1">
-							<p class="card-title h5 text-primary">@product.Title</p>
-							<p class="card-title text-info">@product.Author</p>
-						</div>
-						<div class="pl-1">
-							<p>List Price: <strike><b>$@product.ListPrice.ToString("0.00")</b></strike></p>
-						</div>
-						<div class="pl-1">
-							<p>As low as: <b>$@product.Price100.ToString("0.00")</b></p>
-						</div>
-						</div>
-					</div>
-					<a asp-action="Details" class="btn btn-primary form-control" asp-route-productId="@product.id">
-						 Details
-					 </a>
-				</div>
-			</div>
-		</div>
-	}	
-</div>
+<body>
+    <main>
+        <!-- Início Sub Barra de Navegação-->
+        <section id="sub-nav" class="container">
+            <div class="row">
+                <div id="platforms-area" class="col-8" align="center">
+                    <ul>
+                        <li>
+                            <a href=""> Playstation</a>
+                        </li>
+                        <li>
+                            <a href="">Xbox</a>
+                        </li>
+                        <li>
+                            <a href="">Google Stadia</a>
+                        </li>
+                        <li>
+                            <a href="">Nintendo</a>
+                        </li>
+                        <li>
+                            <a href="">PC</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1" align="center" style="background-color: #171A3C;">
+                    <a id="wishlist" href=""><img src="images/wishlist.png"></a>
+                </div>
+                <div class="col-3" align="center">
+                    <div id="label-carrinho">
+                        <a href="cart.html">0 Produtos - 00,00€ <img src="images/carrinho.png" style="margin-bottom:  5px;"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Sub Barra de Navegação-->
+
+        <!-- Início Conteúdo Principal-->
+        <section id="main-content" class="container">
+            <div class="row">
+                <!-- Início Conteúdo Lateral Esquerdo -->
+                <div id="left-panel" class="col-3">
+                    <h2>Preço (EUR)</h2>
+                    <input type="text" id="min-price" name="min-price">
+                    <p>-</p>
+                    <input type="text" id="min-price" name="max-price">
+                    <h3>Tipo</h3>
+                    <input type="checkbox" id="check-videojogo" name="check-videojogo" value="videojogo">
+                    <label for="check-videojogo">Videojogo</label>
+                    <br>
+                    <input type="checkbox" id="check-dlc" name="check-dlc" value="dlc">
+                    <label for="check-dlc">DLC</label>
+                    <h3>Sistema Operativo</h3>
+                    <input type="checkbox" id="check-windows" name="check-windows" value="windows">
+                    <label for="check-windows">Windows</label>
+                    <br>
+                    <input type="checkbox" id="check-mac" name="check-mac" value="mac">
+                    <label for="check-mac">Mac</label>
+                    <br>
+                    <input type="checkbox" id="check-linux" name="check-linux" value="linux">
+                    <label for="check-linux">Linux</label>
+                    <h3>Plataforma</h3>
+                    <input type="checkbox" id="check-play1" name="check-play1" value="play1">
+                    <label for="check-play1">Playstation 1</label>
+                    <br>
+                    <input type="checkbox" id="check-play2" name="check-play2" value="play2">
+                    <label for="check-play2">Playstation 2</label>
+                    <br>
+                    <input type="checkbox" id="check-play3" name="check-play3" value="play3">
+                    <label for="check-play3">Playstation 3</label>
+                    <br>
+                    <input type="checkbox" id="check-play4" name="check-play4" value="play4">
+                    <label for="check-play4">Playstation 4</label>
+                    <br>
+                    <input type="checkbox" id="check-play5" name="check-play5" value="play5">
+                    <label for="check-play5">Playstation 5</label>
+                    <br>
+                    <input type="checkbox" id="check-xbog" name="check-xbog" value="xbog">
+                    <label for="check-xbog">Xbox OG</label>
+                    <br>
+                    <input type="checkbox" id="check-xb360" name="check-xb360" value="xb360">
+                    <label for="check-xb360">Xbox 360</label>
+                    <br>
+                    <input type="checkbox" id="check-xbone" name="check-xbone" value="xbone">
+                    <label for="check-xbone">Xbox One</label>
+                    <br>
+                    <input type="checkbox" id="check-xbseries" name="check-xbseries" value="xbseries">
+                    <label for="check-xbseries">Xbox Series</label>
+                    <br>
+                    <input type="checkbox" id="check-stadia" name="check-stadia" value="stadia">
+                    <label for="check-stadia">Stadia</label>
+                    <br>
+                    <input type="checkbox" id="check-nintendo" name="check-nintendo" value="nintendo">
+                    <label for="check-nintendo">Nintendo</label>
+                    <br>
+                    <input type="checkbox" id="check-pc" name="check-pc" value="pc">
+                    <label for="check-pc">PC</label>
+                    <h3>Categoria(s)</h3>
+                    <input type="checkbox" id="check-acao" name="check-acao" value="acao">
+                    <label for="check-acao">Ação</label>
+                    <br>
+                    <input type="checkbox" id="check-arcade" name="check-arcade" value="arcade">
+                    <label for="check-arcade">Arcade</label>
+                    <br>
+                    <input type="checkbox" id="check-arpg" name="check-arpg" value="arpg">
+                    <label for="check-arpg">ARPG</label>
+                    <br>
+                    <input type="checkbox" id="check-cartas&tabuleiro" name="check-cartas&tabuleiro" value="cartas&tabuleiro">
+                    <label for="check-cartas&tabuleiro">Cartas & Tabuleiro</label>
+                    <br>
+                    <input type="checkbox" id="check-desporto&corridas" name="check-desporto&corridas" value="desporto&corridas">
+                    <label for="check-desporto&corridas">Desporto & Corridas</label>
+                    <br>
+                    <input type="checkbox" id="check-estrategia" name="check-estrategia" value="estrategia">
+                    <label for="check-estrategia">Estratégia</label>
+                    <br>
+                    <input type="checkbox" id="check-f2p" name="check-f2p" value="f2p">
+                    <label for="check-f2p">F2P</label>
+                    <br>
+                    <input type="checkbox" id="check-fps" name="check-fps" value="fps">
+                    <label for="check-fps">FPS</label>
+                    <br>
+                    <input type="checkbox" id="check-hack&slash" name="check-hack&slash" value="hack&slash">
+                    <label for="check-hack&slash">Hack & Slash</label>
+                    <br>
+                    <input type="checkbox" id="check-multiplayer" name="check-multiplayer" value="multiplayer">
+                    <label for="check-multiplayer">Multiplayer</label>
+                    <br>
+                    <input type="checkbox" id="check-mmo" name="check-mmo" value="mmo">
+                    <label for="check-mmo">MMO</label>
+                    <br>
+                    <input type="checkbox" id="check-rpg" name="check-rpg" value="rpg">
+                    <label for="check-rpg">RPG</label>
+                    <br>
+                    <input type="checkbox" id="check-singleplayer" name="check-singleplayer" value="singleplayer">
+                    <label for="check-singleplayer">Singleplayer</label>
+                    <br>
+                    <input type="checkbox" id="check-sobrevivencia" name="check-sobrevivencia" value="sobrevivencia">
+                    <label for="check-sobrevivencia">Sobrevivência</label>
+                    <br>
+                    <input type="checkbox" id="check-terror" name="check-terror" value="terror">
+                    <label for="check-terror">Terror</label>
+                    <br>
+                    <input type="button" id="clear-filters" value="Limpar Filtros">
+                </div>
+                <!-- Fim Conteúdo Lateral Esquerdo -->
+
+                <!-- Início Conteúdo Central -->
+                <div id="central-panel" class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div id="menu-anchor" class="col-12">
+                                <div class="glide">
+                                    <div class="glide__track" data-glide-el="track">
+                                        <ul class="glide__slides">
+                                            <li><a href=""><img class="glide__slide" src="images/carrossel_1.png"></a></li>
+                                            <li><a href=""><img class="glide__slide" src="images/carrossel_2.png"></a></li>
+                                            <li><a href=""><img class="glide__slide" src="images/carrossel_3.png"></a></li>
+                                            <li><a href=""><img class="glide__slide" src="images/carrossel_4.png"></a></li>
+                                            <li><a href=""><img class="glide__slide" src="images/carrossel_5.png"></a></li>
+                                        </ul>
+                                        <div class="glide__bullets" data-glide-el="controls[nav]">
+                                            <button class=" glide__bullet" data-glide-dir="=0"></button>
+                                            <button class="glide__bullet" data-glide-dir="=1"></button>
+                                            <button class="glide__bullet" data-glide-dir="=2"></button>
+                                            <button class="glide__bullet" data-glide-dir="=3"></button>
+                                            <button class="glide__bullet" data-glide-dir="=4"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Jogos em Destaque</h2>
+                    <div class="row">
+                        <div id="destaque-area" class="col-12">
+                            @foreach (var product in Model)
+                            {
+                                <div class="game-card">
+                                    <img src="@product.ImageUrl" />
+                                    <div class="game-card-content">
+                                        <h3 class="card-title"><a href="">@product.Title</a></h3>
+                                    </div>
+                                    <a asp-action="Details" class="btn btn-primary form-control" asp-route-id="@product.id">
+                                        Details
+                                    </a>
+                                </div>
+
+                            }
+                        </div>
+                    </div>
+                    <h2>Promoções</h2>
+                    <div class="row">
+                        <div id="destaque-area" class="col-12">
+                            @foreach (var product in Model)
+                            {
+                                <div class="game-card">
+                                    <img src="@product.ImageUrl" />
+                                    <div class="game-card-content">
+                                        <h3 class="card-title"><a href="">@product.Title</a></h3>
+                                    </div>
+                                    <a asp-action="Details" class="btn btn-primary form-control" asp-route-id="@product.id">
+                                        Details
+                                    </a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Conteúdo Central -->
+
+                <!-- Início Conteúdo Lateral Direito -->
+                <div id="right-panel" class="col-3">
+                    <a href=""><img src="images/banner.png"></a>
+                </div>
+                <!-- Fim Conteúdo Lateral Direito -->
+            </div>
+        </section>
+        <!-- Fim Conteúdo Principal-->
+    </main>
+
+    
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/glide.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>

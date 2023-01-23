@@ -4,11 +4,16 @@ using TendesAfter.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
+using TendesAfter.Utility;
 
 namespace TendesAfterWeb.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	public class CoverTypeController : Controller
+    [Authorize(Roles = SD.Role_Admin)]
+
+    public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
 

@@ -18,10 +18,7 @@
   <ItemGroup>
     <None Include="Areas\Customer\Views\Home\cart.cshtml" />
     <None Include="Areas\Customer\Views\Home\game.cshtml" />
-    <None Include="Areas\Customer\Views\Home\index4.cshtml" />
-    <None Include="Areas\Customer\Views\Home\login.cshtml" />
     <None Include="Areas\Customer\Views\Home\payment.cshtml" />
-    <None Include="Areas\Customer\Views\Home\register.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

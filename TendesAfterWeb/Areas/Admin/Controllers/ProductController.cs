@@ -9,11 +9,16 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
 using System.Media;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
+using TendesAfter.Utility;
 
 namespace TendesAfter.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	public class ProductController : Controller
+    [Authorize(Roles = SD.Role_Admin +","+ SD.Role_Employee)]
+
+    public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _hostEnvironment;

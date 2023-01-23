@@ -22,5 +22,8 @@ namespace TendesAfter.Models
         public string ApplicationUserId { get; set; }
 		[ForeignKey("ApplicationUserId")]
 		public int Count { get; set; }
+
+		[NotMapped]
+		public double Price { get; set; }
 	}
 }
