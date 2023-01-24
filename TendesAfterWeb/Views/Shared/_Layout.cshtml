@@ -4,6 +4,7 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+
 <!DOCTYPE html>
 <html lang="pt-pt">
 <head>
@@ -44,14 +45,14 @@
     </style>
 </head>
 <body>
-    <div class="flex-wrapper">
+    
     <!-- Início Barra de Navegação -->
     <header>
         <nav id="main-nav" class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <!-- Início Logo -->
                 <div class="col-3">
-                        <a class="navbar-brand" asp-area="Customer" asp-page="/Areas/Views/Home/index">
+                        <a class="navbar-brand" asp-area="Customer" asp-controller="Home" asp-action="Index">
                         <img src="/Images/logo.png" width="150">
                     </a>
                 </div>
@@ -70,22 +71,24 @@
                 <!-- Início área Login/Registo -->
                 <div class="col-3">
                     <div>
-                        <ul>
+                            <ul>
                                 @if (SignInManager.IsSignedIn(User))
                                 {
                                     <li class="align-middle">
                                         <img src="/Images/user.png">
-                                        <a id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Olá @UserManager.GetUserName(User)!</a> |
+                                        <a id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">OlÃ¡, @UserManager.GetUserName(User) !</a>
+                                        <br>
+                                        <img src="/Images/portugal-flag.png" alt="Idioma">
                                         <form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                                             <button id="logout" type="submit">Logout</button>
                                         </form>
-                                        <img src="/Images/portugal-flag.png" alt="Idioma">
                                     </li>
                                     if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
                                     {
-                                    <li id="painel">
-                                        <a asp-area="Admin" asp-controller="Panel" asp-action="Index">Painel </a>
-                                    </li>
+                                        <li id="painel">
+                                            <img src="/Images/control.png" alt="Painel de Controlo">
+                                            <a asp-area="Admin" asp-controller="Panel" asp-action="Index">Painel de controlo</a>
+                                        </li>
                                     }
                                 }
                                 else
@@ -94,9 +97,9 @@
                                     <li class="align-middle">
                                         <a id="login" asp-area="Identity" asp-page="/Account/Login">Login</a> |
                                     </li>
-                                    
+
                                     <li class="align-middle">
-                                        <a  id="register" asp-area="Identity" asp-page="/Account/Register">Registar</a>
+                                        <a id="register" asp-area="Identity" asp-page="/Account/Register">Registar</a>
                                     </li>
                                     <li class="align-middle"><img src="/Images/portugal-flag.png"></li>
                                 }
@@ -144,6 +147,7 @@
     </main>
 
     <!-- Início rodapé -->
+    <div class="flex-wrapper">
     <footer>
         <div id="footer-top">
             <div id="payment-methods" class="container">
@@ -200,6 +204,7 @@
                 </div>
             </div>
         </div>
+
     </footer>
     </div>
     <!-- Fim rodapé -->

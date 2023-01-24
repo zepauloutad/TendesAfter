@@ -1,24 +1,61 @@
 ﻿@model TendesAfter.Models.CoverType
 
-<form method="post">
-	<div class="border p-3 mt-4">
-		<div class="row pb-2">
-			<h2 class="text-primary">Create CoverType</h2>
-			<hr/>
-		</div>
-		<div asp-validation-summary="All"></div>
-		<div class="mb-3">
-			<label asp-for="Name"></label>
-			<input asp-for="Name" class="form-control"/>
-			<span asp-validation-for="Name" class="text-danger"></span>
-		</div>
-		<button type="submit" class="btn btn-primary" style="width:150px">Create</button>
-		<a asp-controller="CoverType" asp-action="Index" class="btn btn-secondary" style="width:150px">
-			Back To List
-		</a>
-	</div>
-</form>
+<style>
+	#page-content {
+		margin-top: 150px;
+		margin-bottom: 50px;
+	}
 
+	#page-header {
+		font-weight: bold;
+		color: #CCC;
+		margin-left: 15px;
+	}
+
+	label {
+		font-weight: 500;
+		color: #F44D10;
+		font-size: 1.5rem;
+		display: block;
+	}
+
+	#create-btn,#back-btn {
+		background-color: #171A3C;
+		color: #FFF;
+		border: 1px solid #FFF;
+	}
+
+	#create-btn:hover {
+	color:  #F44D10;
+	border: 1px solid #F44D10;
+	}
+
+	#back-btn:hover{
+		color: #F44D10;
+		border: 1px solid #F44D10; 
+	}
+</style>
+
+<div id="page-content" class="container">
+	<form method="post">
+		<div class="p-3 mt-4">
+			<div class="row pb-2">
+				<h2 id="page-header">Adicionar Plataforma</h2>
+				<hr/>
+			</div>
+			<div asp-validation-summary="All"></div>
+			<div class="mb-3">
+				<label asp-for="Name">Nome da Plataforma</label>
+				<input asp-for="Name" class="form-control"/>
+				<span asp-validation-for="Name" class="text-danger"></span>
+			</div>
+			<button id="create-btn" type="submit" class="btn" style="width:150px">Adicionar</button>
+			<a id="back-btn" asp-controller="CoverType" asp-action="Index" class="btn ml-3" style="width:150px">
+				Voltar Atrás
+			</a>
+		</div>
+	</form>
+</div>
 @section Scripts
 {
 	@{

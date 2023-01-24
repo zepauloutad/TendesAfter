@@ -1,30 +1,90 @@
 ﻿@page
 @model IndexModel
-@{
-    ViewData["Title"] = "Profile";
-    ViewData["ActivePage"] = ManageNavPages.Index;
-}
 
-<h3>@ViewData["Title"]</h3>
-<partial name="_StatusMessage" for="StatusMessage" />
-<div class="row">
-    <div class="col-md-6">
-        <form id="profile-form" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-floating">
-                <input asp-for="Username" class="form-control" disabled />
-                <label asp-for="Username" class="form-label"></label>
+
+<style>
+    #page-content{
+        margin-top: 200px;
+    }
+    #page-header {
+        font-weight: bold;
+        color: #CCC;
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+    label {
+        font-weight: 500;
+        color: #F44D10;
+        font-size: 1.5rem;
+        display: block;
+    }
+    #picture-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #profile-picture{
+        background-color: #CCC;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    #picture-text{
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-top: 30px;
+        color: #F44D10;
+    }
+    #update-profile-button {
+        background-color: #171A3C;
+        color: #FFF;
+        border: 1px solid #FFF;
+        width:50%;
+        height: 50px;
+        border-radius: 8px;
+    }
+
+        #update-profile-button:hover {
+            color: #F44D10;
+            border: 1px solid #F44D10;
+        }
+</style>
+
+<div id="page-content" class="container">
+    <h2 id="page-header">Alterar Informações Pessoais</h2>
+    <div class="row">
+        <!-- Zona da Imagem de Utilizador -->
+        <div  id="picture-area" class="col-4">
+            <div id="profile-picture"">
             </div>
-            <div class="form-floating">
-                <input asp-for="Input.PhoneNumber" class="form-control" />
-                <label asp-for="Input.PhoneNumber" class="form-label"></label>
-                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
-            </div>
-            <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
-        </form>
+            <p id="picture-text">Foto de Perfil</p>
+        </div>
+        <!-- Zona das Informações pessoais -->
+        <div class="col-8">
+            <partial name="_StatusMessage" for="StatusMessage" />
+            <form id="profile-form" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="mb-4">
+                        <label asp-for="Username" class="form-label">Nome de Utilizador:</label>
+                        <input asp-for="Username" class="form-control" disabled/>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Input.PhoneNumber" class="form-label">Password:</label>
+                        <input asp-for="Input.PhoneNumber" class="form-control" />
+                        <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                    </div>
+                    <div class="mb-5">
+                        <label asp-for="Input.PhoneNumber" class="form-label">Confirmar Password:</label>
+                        <input asp-for="Input.PhoneNumber" class="form-control" />
+                        <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                    </div>
+                    <button id="update-profile-button" type="submit" class="">Atualizar</button>
+            </form>
+        </div>
     </div>
+    
 </div>
-
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

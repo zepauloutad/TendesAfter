@@ -49,6 +49,18 @@
       "PackagePath": "staticwebassets\\Images\\carrossel_5.png"
     },
     {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\category.png",
+      "PackagePath": "staticwebassets\\Images\\category.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\console.png",
+      "PackagePath": "staticwebassets\\Images\\console.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\control.png",
+      "PackagePath": "staticwebassets\\Images\\control.png"
+    },
+    {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\cosme.jpg",
       "PackagePath": "staticwebassets\\Images\\cosme.jpg"
     },
@@ -73,66 +85,6 @@
       "PackagePath": "staticwebassets\\Images\\instagram.png"
     },
     {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_1.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_1.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_10.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_10.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_11.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_11.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_12.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_12.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_13.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_13.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_14.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_14.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_15.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_15.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_2.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_2.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_3.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_3.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_4.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_4.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_5.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_5.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_6.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_6.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_7.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_7.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_8.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_8.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\jogo_9.png",
-      "PackagePath": "staticwebassets\\Images\\jogo_9.png"
-    },
-    {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\key.png",
       "PackagePath": "staticwebassets\\Images\\key.png"
     },
@@ -147,6 +99,10 @@
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\multibanco.png",
       "PackagePath": "staticwebassets\\Images\\multibanco.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\mushroom.png",
+      "PackagePath": "staticwebassets\\Images\\mushroom.png"
     },
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\patricio.jpg",
@@ -165,52 +121,28 @@
       "PackagePath": "staticwebassets\\Images\\portugal-flag.png"
     },
     {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\0a8a9c24-a8ae-4df4-8249-6cb96b007609.jpeg",
-      "PackagePath": "staticwebassets\\Images\\products\\0a8a9c24-a8ae-4df4-8249-6cb96b007609.jpeg"
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\producer.png",
+      "PackagePath": "staticwebassets\\Images\\producer.png"
     },
     {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\3549f6d0-c724-4732-8ab2-85f5765cc3b5.jpeg",
-      "PackagePath": "staticwebassets\\Images\\products\\3549f6d0-c724-4732-8ab2-85f5765cc3b5.jpeg"
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\391480a8-7036-4b1c-acd7-309b80f5f1d3.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\391480a8-7036-4b1c-acd7-309b80f5f1d3.jpeg"
     },
     {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\5b0eef90-e80b-4b12-8873-4fc4748d6e48.jpeg",
-      "PackagePath": "staticwebassets\\Images\\products\\5b0eef90-e80b-4b12-8873-4fc4748d6e48.jpeg"
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\54b3d845-3982-4840-89d1-333720aeac31.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\54b3d845-3982-4840-89d1-333720aeac31.jpeg"
     },
     {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\67b8e970-e3c9-4534-b40c-41ffceab7abd.png",
-      "PackagePath": "staticwebassets\\Images\\products\\67b8e970-e3c9-4534-b40c-41ffceab7abd.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\7abfc47f-0083-4cad-8b2e-6a8ce0d6c4e0.jpeg",
-      "PackagePath": "staticwebassets\\Images\\products\\7abfc47f-0083-4cad-8b2e-6a8ce0d6c4e0.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\89b0167f-8bf5-42bc-94a0-8cfbf0888544.jpeg",
-      "PackagePath": "staticwebassets\\Images\\products\\89b0167f-8bf5-42bc-94a0-8cfbf0888544.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\8e6f9d02-92f9-453f-8446-0b9c42ba2394.jpeg",
-      "PackagePath": "staticwebassets\\Images\\products\\8e6f9d02-92f9-453f-8446-0b9c42ba2394.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\a40eb9a7-ea0f-4b45-a565-ddb4b0eb6de4.jpeg",
-      "PackagePath": "staticwebassets\\Images\\products\\a40eb9a7-ea0f-4b45-a565-ddb4b0eb6de4.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\a585eb62-46bb-4a0d-bd91-cadb183095c2.png",
-      "PackagePath": "staticwebassets\\Images\\products\\a585eb62-46bb-4a0d-bd91-cadb183095c2.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\da564080-8860-4c15-9e30-332d64b2e27e.png",
-      "PackagePath": "staticwebassets\\Images\\products\\da564080-8860-4c15-9e30-332d64b2e27e.png"
-    },
-    {
-      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\fa5a4ee2-926b-4045-8a76-2cd6f05beb16.jpeg",
-      "PackagePath": "staticwebassets\\Images\\products\\fa5a4ee2-926b-4045-8a76-2cd6f05beb16.jpeg"
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\products\\be762aa2-b0ae-4fa5-b32c-796a8fe7a16f.jpeg",
+      "PackagePath": "staticwebassets\\Images\\products\\be762aa2-b0ae-4fa5-b32c-796a8fe7a16f.jpeg"
     },
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\sell.png",
       "PackagePath": "staticwebassets\\Images\\sell.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\sneaky.png",
+      "PackagePath": "staticwebassets\\Images\\sneaky.png"
     },
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\star-empty.png",
@@ -231,6 +163,10 @@
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\user.png",
       "PackagePath": "staticwebassets\\Images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\users.png",
+      "PackagePath": "staticwebassets\\Images\\users.png"
     },
     {
       "Id": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\wwwroot\\Images\\visa.png",

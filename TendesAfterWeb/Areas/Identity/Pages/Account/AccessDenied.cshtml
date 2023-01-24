@@ -1,10 +1,36 @@
 ﻿@page
 @model AccessDeniedModel
-@{
-    ViewData["Title"] = "Access denied";
-}
 
-<header>
-    <h1 class="text-danger">@ViewData["Title"]</h1>
-    <p class="text-danger">You do not have access to this resource.</p>
-</header>
+<style>
+    #page-content{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page-content img{
+        height: 200px;
+    }
+    #page-header{
+        margin-top: 50px;
+        font-weight: bold;
+        color: #F44D10;
+        margin-bottom: 20px;
+    }
+    #page-content p{
+        text-align: center;
+        color: #CCC;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+</style>
+<div id="page-content" class="container">
+    <div>
+        <img src="/Images/sneaky.png" alt="Sneaky">
+    </div>
+    <div>
+        <h2 id="page-header">Você não tem acesso a este conteúdo...</h2>
+        <p>Está a tentar fazer algo que não deve?</p>
+    </div>
+</div>

@@ -108,6 +108,8 @@ namespace TendesAfterWeb.Areas.Identity.Pages.Account
             [Required]
             public string Name { get; set; }
 
+            public string PhoneNumber { get; set; }
+
             public string? Role { get; set; }
 
             [ValidateNever]
@@ -118,13 +120,13 @@ namespace TendesAfterWeb.Areas.Identity.Pages.Account
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            if (!_roleManager.RoleExistsAsync(SD.Role_Admin).GetAwaiter().GetResult()) 
-            { 
+            if (!_roleManager.RoleExistsAsync(SD.Role_Admin).GetAwaiter().GetResult())
+            {
                 _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(SD.Role_User)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(SD.Role_Employee)).GetAwaiter().GetResult();
             }
-        ReturnUrl = returnUrl;
+            ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             Input = new InputModel()
             {
@@ -146,7 +148,8 @@ namespace TendesAfterWeb.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-                user.Name= Input.Name;
+                user.Name = Input.Name;
+                user.PhoneNumber= Input.PhoneNumber;
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
@@ -154,7 +157,7 @@ namespace TendesAfterWeb.Areas.Identity.Pages.Account
                 {
                     _logger.LogInformation("User created a new account with password.");
 
-                    if(Input.Role == null)
+                    if (Input.Role == null)
                     {
                         await _userManager.AddToRoleAsync(user, SD.Role_User);
                     }

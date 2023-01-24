@@ -1,65 +1,116 @@
 ﻿@model TendesAfter.Models.ViewModels.ProductVM
 
-<form method="post" asp-controller="Product" asp-action="Upsert" enctype="multipart/form-data">
-	<input asp-for="product.id" hidden/>
-	<input asp-for="product.ImageUrl" hidden />
+<style>
+	#page-content{
+		margin-top: 150px;
+	}
 
-	<div class="border p-3 mt-4 row">
-		<div class="row pb-2">
-			<h2 class="text-primary"> @(Model.product.id != 0 ? "Update" : "Create") Product</h2>
-			<hr />
-		</div>
-		<div asp-validation-summary="All"></div>
-		<div class="mb-3">
-			<label asp-for="product.Title"></label>
-			<input asp-for="product.Title" class="form-control" rows="3">
-			<span asp-validation-for="product.Title" class="text-danger"></span>
-		</div>
-		<div class="mb-3">
-			<label asp-for="product.Description"></label>
-			<textarea asp-for="product.Description" rows="3" class="form-control"></textarea>
-			<span asp-validation-for="product.Description" class="text-danger"></span>
-		</div>
-		<div class="mb-3 col-6">
-			<label asp-for="product.Price"></label>
-			<input asp-for="product.Price" class="form-control" />
-			<span asp-validation-for="product.Price" class="text-danger"></span>
-		</div>
-		<div class="mb-3 ">
-			<label asp-for="product.ImageUrl"></label>
-			<input type="file" class="form-control" name="file" id="uploadBox"/>
-		</div>
-		<div class="mb-3 col-6">
-			<label asp-for="product.CategoryId"></label>
-			<select asp-for="product.CategoryId" asp-items="@Model.CategoryList" class="form-select">
-				<option disabled selected>Select Category</option>
-			</select>
-			<span asp-validation-for="product.CategoryId" class="text-danger"></span>
-		</div>
-		<div class="mb-3 col-6">
-			<label asp-for="product.CoverTypeID"></label>
-			<select asp-for="product.CoverTypeID" asp-items="@Model.CoverTypeList" class="form-select">
-				<option disabled selected>Select CoverType</option>
-			</select>
-			<span asp-validation-for="product.CategoryId" class="text-danger"></span>
-		</div>
-		<div class="col-12">
-			@if (Model.product.id != 0)
-			{
-				<button type="submit" class="btn btn-primary" style="width:150px">Update</button>
-			}
-			else
-			{
-				<button type="submit" onclick="return ValidateInput()" class="btn btn-primary" style="width:150px">Create</button>
+	#page-header {
+		font-weight: bold;
+		color: #CCC;
+		margin-left: 15px;
+	}
 
-			}
-			<a asp-controller="Product" asp-action="Index" class="btn btn-secondary" style="width:150px">
-				Back To List
-			</a>
-		</div>
-	</div>
-</form>
+	label{
+		font-weight: 500;
+		color: #F44D10;
+		font-size: 1.5rem;
+		display: block;
+	}
 
+	#uploadBox{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		height: auto;
+		padding: 10px;
+	}
+
+	#create-btn,#back-btn {
+		background-color: #171A3C;
+		color: #FFF;
+		border: 1px solid #FFF;
+	}
+
+	#create-btn:hover {
+	color: #F44D10;
+	border: 1px solid #F44D10;
+	}
+
+	#back-btn:hover{
+		color: #F44D10;
+		border: 1px solid #F44D10;
+	}
+
+	</style>
+<div id="page-content" class="container mb-5">
+	<form method="post" asp-controller="Product" asp-action="Upsert" enctype="multipart/form-data">
+		<input asp-for="product.id" hidden/>
+		<input asp-for="product.ImageUrl" hidden />
+
+			<div class="row pb-2">
+				<h2 id="page-header"> @(Model.product.id != 0 ? "Atualizar" : "Adicionar") Videojogo</h2>
+			</div>
+			<div asp-validation-summary="All"></div>
+			<!-- Título -->
+			<div class="mb-3">
+				<label asp-for="product.Title">Título do Videojogo:</label>
+				<input asp-for="product.Title" class="form-control" rows="3" placeholder="Ex. Call of Duty">
+				<span asp-validation-for="product.Title" class="text-danger"></span>
+			</div>
+			<!-- Capa -->
+			<div class="mb-3">
+				<label asp-for="product.ImageUrl">Capa do Videojogo:</label>
+				<input type="file" class="form-control" name="file" id="uploadBox"/>
+			</div>
+			<!-- Categoria / Preço -->
+			<div class="row">
+				<div class="mb-3 col-6">
+					<label asp-for="product.CategoryId">Categoria:</label>
+					<select asp-for="product.CategoryId" asp-items="@Model.CategoryList" class="form-select" style="border-radius: 0.25rem; border: 1px solid #ced4da; height: 50px; background: #171A3C; padding: 10px 5px; width: 100%; color: #FFF;">
+						<option disabled selected>Selecionar Categoria</option>
+					</select>
+					<span asp-validation-for="product.CategoryId" class="text-danger"></span>
+				</div>
+			<div class="mb-3 col-6">
+					<label asp-for="product.Price">Preço (€):</label>
+					<input asp-for="product.Price" class="form-control" style="height: 50px;" placeholder="0.00€"/>
+					<span asp-validation-for="product.Price" class="text-danger"></span>
+				</div>
+			</div>
+			<!-- Consola -->
+			<div class="row">
+				<div class="mb-3 col-6">
+					<label asp-for="product.CoverTypeID">Plataforma:</label>
+				<select asp-for="product.CoverTypeID" asp-items="@Model.CoverTypeList" class="form-select" style="border-radius: 0.25rem; border: 1px solid #ced4da; height: 50px; background: #171A3C; padding: 10px 5px; width: 100%; color: #FFF;">
+						<option disabled selected>Selecione a Plataforma</option>
+					</select>
+					<span asp-validation-for="product.CategoryId" class="text-danger"></span>
+				</div>
+			</div>
+			<!-- Descrição -->
+			<div class="mb-3">
+				<label asp-for="product.Description">Descrição:</label>
+				<textarea asp-for="product.Description" rows="3" class="form-control" style="background: #171A3C;"></textarea>
+				<span asp-validation-for="product.Description" class="text-danger"></span>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					@if (Model.product.id != 0)
+					{
+						<button type="submit" class="btn" style="width:150px">Atualizar</button>
+					}
+					else
+					{
+						<button id="create-btn" type="submit" onclick="return ValidateInput()" class="btn" style="width:150px">Adicionar</button>
+
+					}
+					<a id="back-btn" asp-controller="Product" asp-action="Index" class="btn ml-3" style="width:150px">
+						Voltar Atrás
+					</a>
+				</div>
+			</div>
+	</form>
+</div>
 @section Scripts{
 	@{
 		<partial name="_ValidationScriptsPartial" />
@@ -69,9 +120,9 @@
 			if (document.getElementById("uploadBox").value == "") {
 				Swal.fire(
 					{
-						icon: 'error',
+						icon: 'Erro',
 						title: 'Oops...',
-						text: 'Please upload an Image!',
+						text: 'Por favor insira uma Imagem!',
 					});
 				return false;
 			}
@@ -79,7 +130,7 @@
 		}
 	</script>
 
-	<script>
+	@*<script>
 		tinymce.init({
 			selector: 'textarea',
 			plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss',
@@ -91,5 +142,5 @@
 				{ value: 'Email', title: 'Email' },
 			]
 		});
-	</script>
+	</script>*@
 }

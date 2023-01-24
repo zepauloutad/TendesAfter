@@ -1,9 +1,6 @@
 ﻿<style>
 
     #page-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
         margin-top: 150px;
         margin-bottom: 50px;
     }
@@ -26,6 +23,11 @@
         justify-content: center;
         align-items: center;
         margin-right: 15px;
+    }
+
+    #add-game-btn:hover {
+        color: #FFF;
+        border: 1px solid #FFF;
     }
 
     thead{
@@ -59,7 +61,7 @@
 </style>
 
 <div id="page-content" class="container">
-    <div id="page-header" class="row">
+    <div id="page-header" class="row mb-5">
             <h2>Lista de Videojogos</h2>
 
         <a id="add-game-btn" asp-controller="Product" asp-action="Upsert" class="btn">
@@ -72,13 +74,13 @@
         <thead>
             <tr>
                 <th>
-                    Title
+                    Título
                 </th>
                 <th>
-                    Price
+                    Preço
                 </th>
                  <th>
-                    Category
+                    Categoria
                 </th>
              @*   <th>
                     CoverType

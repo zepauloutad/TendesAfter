@@ -208,7 +208,7 @@ header ul {
 
 .flex-wrapper {
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
+    height: 75vh;
 }

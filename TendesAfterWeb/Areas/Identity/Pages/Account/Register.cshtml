@@ -1,5 +1,6 @@
 ﻿@page
 @model RegisterModel
+@using TendesAfter.Utility;
 @{
     ViewData["Title"] = "Register";
 }
@@ -22,9 +23,16 @@
                         <span asp-validation-for="Input.Name" class="text-danger"></span>
                     </div>
                     <div class="form-floating mb-4">
-                        <input type="text" asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email de Utilizador"/>
+                        <input type="text" asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email de Utilizador" />
                         <span asp-validation-for="Input.Email" class="text-danger"></span>
                     </div>
+                    @if(User.IsInRole(SD.Role_Admin))
+                    {
+                    <div class="form-floating mb-4">
+                        <input type="text" asp-for="Input.PhoneNumber" class="form-control"  aria-required="true" placeholder="Telemovel" />
+                        <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                    </div>
+                    }
                     <div class="form-floating mb-4">
                         <input type="password" asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Password" />
                         <span asp-validation-for="Input.Password" class="text-danger"></span>
@@ -33,11 +41,15 @@
                         <input type="password" asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Confirmar password" />
                         <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
                     </div>
-                    <div class="form-floating my-2">
-                        <select id="form-role" asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-select">
-                            <option disabled selected>Selecionar Cargo</option>
-                        </select>
-                    </div>
+                    @*@if (User.IsInRole(SD.Role_Admin))
+                    {*@
+                        <div class="form-floating my-2">
+                            <select id="form-role" asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-select">
+                                <option disabled selected>Selecionar Cargo</option>
+                            </select>
+
+                        </div>
+                  @*  }*@
                     <input type="checkbox" id="terms_check" name="terms_check" value="checked">
                     <label for="terms_check">Concordo com os <a href="" style="color: #F44D10;">Termos de Uso e Declarações de Privacidade</a></label>
                     <button id="registerSubmit" type="submit">Registar</button>

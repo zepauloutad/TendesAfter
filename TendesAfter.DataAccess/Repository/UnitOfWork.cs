@@ -17,6 +17,7 @@ namespace TendesAfter.DataAccess.Repository
             Category = new CategoryRepository(_db);
             CoverType= new CoverTypeRepository(_db);
             Product = new ProductRepository(_db);
+            Producer = new ProducerRepository(_db);
             ApplicationUser= new ApplicationUserRepository(_db);
             ShoppingCart= new ShoppingCartRepository(_db);
         }
@@ -25,6 +26,8 @@ namespace TendesAfter.DataAccess.Repository
         public ICoverTypeRepository CoverType { get; private set; }
 
         public IProductRepository Product { get; private set; }
+
+        public IProducerRepository Producer { get; private set; }
 
         public IApplicationUserRepository ApplicationUser { get; private set; }
 

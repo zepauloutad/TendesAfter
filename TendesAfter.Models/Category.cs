@@ -2,7 +2,7 @@
 
 namespace TendesAfter.Models
 {
-    public class Category
+    public class Producer
     {
         [Key]
         public int Id { get; set; }

@@ -15,12 +15,12 @@ namespace TendesAfter.Models
         public string Title { get; set; }
         public string Description { get; set; }
         [Required]
-        public double Price { get; set; }
-        [Required]
-        [Range(1, 10000)]
-        [Display(Name = "Price for 51-100")]
+        public decimal Price { get; set; }
+        [ValidateNever]
 
-		public string ImageUrl { get; set; }
+        public string ImageUrl { get; set; }
+
+        public bool Bought { get; set; } = false;
         [Required]
         [Display(Name = "Category")]
 
@@ -38,14 +38,24 @@ namespace TendesAfter.Models
         [Display(Name ="Console")]
 		
 		public int CoverTypeID { get; set; }
-  //      [Required]
-		//[ValidateNever]
-		//public Producer Producer { get; set; }
+        [Required]
+        [Display(Name = "Produtora")]
+
+        public int ProducerId { get; set; }
+        [Required]
+        [ValidateNever]
+
+        public Producer Producer { get; set; }
+      
+
+        //      [Required]
+        //[ValidateNever]
+        //public Producer Producer { get; set; }
 
         //[Required]
         //[Display(Name = "Producer")]
 
         //public int ProducerID { get; set; }
-      
+
     }
 }
