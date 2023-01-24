@@ -51,8 +51,13 @@ namespace TendesAfter.Areas.Admin.Controllers
                 {
                     Text = i.Name,
                     Value = i.Id.ToString()
-                })
-            };
+                }),
+				ProducerList = _unitOfWork.Producer.GetAll().Select(i => new SelectListItem
+				{
+					Text = i.Name,
+					Value = i.Id.ToString()
+				})
+			};
 			
 			if (id == null || id == 0)
             {
@@ -120,7 +125,7 @@ namespace TendesAfter.Areas.Admin.Controllers
 		[HttpGet]
 		public IActionResult GetAll()
 		{
-            var productList = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
+            var productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType,Producer");
             return Json(new { data = productList }); 
 	    }
 

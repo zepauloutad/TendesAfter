@@ -26,6 +26,7 @@ namespace TendesAfter.DataAccess.Repository
                 objFromDb.Description = obj.Description;
                 objFromDb.CategoryId = obj.CategoryId;
                 objFromDb.CoverType = obj.CoverType;
+                objFromDb.Price= obj.Price;
                 objFromDb.Bought = obj.Bought;
                 if(obj.ImageUrl!= null)
                 {

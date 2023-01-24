@@ -318,6 +318,9 @@ namespace TendesAfter.DataAccess.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("ProducerId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -327,6 +330,8 @@ namespace TendesAfter.DataAccess.Migrations
                     b.HasIndex("CategoryId");
 
                     b.HasIndex("CoverTypeID");
+
+                    b.HasIndex("ProducerId");
 
                     b.ToTable("Products");
                 });
@@ -434,9 +439,17 @@ namespace TendesAfter.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("TendesAfter.Models.Producer", "Producer")
+                        .WithMany()
+                        .HasForeignKey("ProducerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
 
                     b.Navigation("CoverType");
+
+                    b.Navigation("Producer");
                 });
 
             modelBuilder.Entity("TendesAfter.Models.ShoppingCart", b =>

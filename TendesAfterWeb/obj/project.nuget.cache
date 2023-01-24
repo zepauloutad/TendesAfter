@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3XQsuRmoDtvSvd8kJXJCwFK4D9bpYvhf6UDY5y2eOlWpHMSjPxREDgdgm4WJg8b4IYRnJ1iTsWNhiuaAG1sVTQ==",
+  "dgSpecHash": "o1EoEI7bsWEU66Xjef2lNAnPbbVfKrvlwb+sKgyxdR7x9EMaYlykTXFcVnxKdf87a7lqGhvuD0rwgHywGIyQaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfterWeb\\TendesAfterWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zepau\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\zepau\\.nuget\\packages\\mailkit\\3.4.3\\mailkit.3.4.3.nupkg.sha512",
+    "C:\\Users\\zepau\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
     "C:\\Users\\zepau\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\zepau\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\zepau\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",

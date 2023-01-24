@@ -15,3 +15,20 @@ C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.DataAccess\
 C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.DataAccess\bin\Debug\net6.0\TendesAfter.Models.pdb
 C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.csproj.CopyComplete
 C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.genruntimeconfig.cache
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\bin\Debug\net6.0\TendesAfter.DataAccess.deps.json
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\bin\Debug\net6.0\TendesAfter.DataAccess.runtimeconfig.json
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\bin\Debug\net6.0\TendesAfter.DataAccess.dll
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\bin\Debug\net6.0\TendesAfter.DataAccess.pdb
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\bin\Debug\net6.0\TendesAfter.Models.dll
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\bin\Debug\net6.0\TendesAfter.Models.pdb
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.csproj.AssemblyReference.cache
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.AssemblyInfoInputs.cache
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.AssemblyInfo.cs
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.csproj.CopyComplete
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.dll
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\refint\TendesAfter.DataAccess.dll
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.pdb
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\TendesAfter.DataAccess.genruntimeconfig.cache
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.DataAccess\obj\Debug\net6.0\ref\TendesAfter.DataAccess.dll

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MviczsuM0MueqUAoDlIPOOo7cELdj1EkzPbpnhz6/80dbzEguEEOCFuzxWH5cLfomohL/ulMPv2lWW2KamQSwQ==",
+  "dgSpecHash": "QE25sahqj772sk52uQoiL4nsUWXdRVEeDBrcUPr74ehN/rE+iBNt7eobXmPzoDA5Nr7KU0alF+DTRYEN1L6KMw==",
   "success": true,
   "projectFilePath": "C:\\Users\\zepau\\OneDrive\\Ambiente de Trabalho\\TendesAfter\\TendesAfter.DataAccess\\TendesAfter.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zepau\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\zepau\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
     "C:\\Users\\zepau\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\zepau\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\zepau\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

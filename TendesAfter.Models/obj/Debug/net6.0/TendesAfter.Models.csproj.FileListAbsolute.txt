@@ -10,3 +10,15 @@ C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Models\obj\
 C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Models\obj\Debug\net6.0\refint\TendesAfter.Models.dll
 C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Models\obj\Debug\net6.0\TendesAfter.Models.pdb
 C:\Users\zepau\OneDrive\Ambiente de Trabalho\TendesAfter\TendesAfter.Models\obj\Debug\net6.0\ref\TendesAfter.Models.dll
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\bin\Debug\net6.0\TendesAfter.Models.deps.json
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\bin\Debug\net6.0\TendesAfter.Models.dll
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\bin\Debug\net6.0\TendesAfter.Models.pdb
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\obj\Debug\net6.0\TendesAfter.Models.csproj.AssemblyReference.cache
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\obj\Debug\net6.0\TendesAfter.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\obj\Debug\net6.0\TendesAfter.Models.AssemblyInfoInputs.cache
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\obj\Debug\net6.0\TendesAfter.Models.AssemblyInfo.cs
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\obj\Debug\net6.0\TendesAfter.Models.csproj.CoreCompileInputs.cache
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\obj\Debug\net6.0\TendesAfter.Models.dll
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\obj\Debug\net6.0\refint\TendesAfter.Models.dll
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\obj\Debug\net6.0\TendesAfter.Models.pdb
+C:\Users\zepau\Downloads\TendesAfter-main\TendesAfter.Models\obj\Debug\net6.0\ref\TendesAfter.Models.dll

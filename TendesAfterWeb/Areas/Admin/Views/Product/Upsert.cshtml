@@ -87,6 +87,16 @@
 					<span asp-validation-for="product.CategoryId" class="text-danger"></span>
 				</div>
 			</div>
+		<!-- Produtora -->
+		<div class="row">
+			<div class="mb-3 col-12">
+				<label asp-for="product.ProducerId">Produtora:</label>
+				<select asp-for="product.ProducerId" asp-items="@Model.ProducerList" class="form-select" style="border-radius: 0.25rem; border: 1px solid #ced4da; height: 50px; background: #171A3C; padding: 10px 5px; width: 100%; color: #FFF;">
+					<option disabled selected>Selecione a Produtora</option>
+				</select>
+				<span asp-validation-for="product.ProducerId" class="text-danger"></span>
+			</div>
+		</div>
 			<!-- Descrição -->
 			<div class="mb-3">
 				<label asp-for="product.Description">Descrição:</label>
